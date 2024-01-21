@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #E3FBFF;*/
+    background-color: #C3DFE3;
+}
+.page{
+    width: 1366px;
+    margin: auto;
+}
+.background{
+    background-color: #347681;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 810px;
+    background-size: cover;
+    position: relative;
+}
+img.full-width {
+    width:100%;
+    height: 810px;
+}
+ul{
+    position: absolute;
+    top: 20px;
+    left: 710px;
+}
+li{
+    display: inline;
+    margin: 17px;
+}
+.link:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: Arial;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial;  
+}
+.logoImg{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 20px;
+    left: 100px;
+}
+.call{
+    position: absolute;
+    top: 23px;
+    left: 1100px;
+}
+.number-button{
+    cursor: pointer;
+    padding: 16px 26px;
+    background-color: #387C87;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Arial; 
+    border-radius: 27px; /* скругление углов */
+}
+.appointment{
+    position: absolute;
+    top: 520px;
+    left: 200px;
+}
+.appointment-button{
+    cursor: pointer;
+    padding: 20px 30px;
+    background-color: #387C87;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Arial; 
+    border-radius: 32px; /* скругление углов */
+}
+.trust{
+    position: absolute;
+    top: 385px;
+    left: 150px;
+    font-size: 21px;
+    font-family: Arial;
+    color: #fff;
+}
+.prices{
+    position: absolute;
+    font-size: 55px;
+    font-family: Arial;
+    top: 840px;
+    left: 485px;
+}
+.number{
+    position: absolute;
+    font-family: Arial;
+    top: 935px;
+    left: 195px;
+    width: 1000px;
+}
+.number1{
+    font-size: 30px;
+    font-family: Arial;
+    margin: 10px;
+}
+.number2{
+    font-size: 12px;
+    font-family: Arial;
+}
+.number3{
+    font-size: 20px;
+    font-family: Arial;
+    margin: 10px;
+}
+.moved-text {
+    float: right;
+}
+.line{
+    border-bottom: 1px solid #347681;
+}
+img.full-width2 {
+    width: 10000%;
+    height: 205px;
+    right: 10000px;
+    position: relative;
+    margin-top: 20px;
+}
+.ad{
+    position: relative;
+    width: 1280px;
+    margin: auto;
+    top: 0;
+    left: 0;
+}
+.logoImg2{
+    top: 20px;
+    width: 89%;
+    height: 205px;
+    right: 15%;
+    position: absolute;
+}

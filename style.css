@@ -1,0 +1,265 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #E3FBFF;*/
+    background-color: #C3DFE3;
+}
+.page{
+    width: 1366px;
+    margin: auto;
+}
+.background{
+    background-color: #347681;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    position: relative;
+}
+img.full-width {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+ul{
+    position: absolute;
+    top: 20px;
+    left: 710px;
+}
+li{
+    display: inline;
+    margin: 17px;
+}
+.link:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: Arial;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial;  
+}
+.logoImg{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 20px;
+    left: 100px;
+}
+.call{
+    position: absolute;
+    top: 23px;
+    left: 1100px;
+}
+.number-button{
+    cursor: pointer;
+    padding: 16px 26px;
+    background-color: #387C87;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Arial; 
+    border-radius: 27px; /* скругление углов */
+}
+.appointment{
+    position: absolute;
+    top: 520px;
+    left: 200px;
+}
+.appointment-button{
+    cursor: pointer;
+    padding: 20px 30px;
+    background-color: #387C87;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Arial; 
+    border-radius: 32px; /* скругление углов */
+}
+.trust{
+    position: absolute;
+    top: 385px;
+    left: 150px;
+    font-size: 21px;
+    font-family: Arial;
+    color: #fff;
+}
+.slider{
+    width: 371px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2rem;
+    left: 127px;
+}
+.slider-line{
+    position: absolute;
+    top: 127px;
+}
+.slider img{
+    max-width: 300px;
+    width: 500px;
+}
+.prev-button, .next-button{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    position: absolute;
+    top: 80px;
+    margin-top: 50%;
+    z-index: 1000;
+    right: 750px;
+    font-size: 2rem;
+    line-height: 2rem;
+    box-shadow: 3px 3px 3px #000;
+}
+.prev-button:active, .next-button:active{
+    background: #c0c0c0;
+}
+.next-button{
+    left: 535px;
+    right: 14px;
+}
+.salesText{
+    position: absolute;
+    font-size: 55px;
+    font-family: Arial;
+    top: 947px;
+    left: 402px;
+}
+.aboutUs{
+    position: absolute;
+    font-size: 55px;
+    font-family: Arial;
+    top: 1431px;
+    left: 615px;
+}
+.aboutImg{
+    position: absolute;
+    width: 503;
+    height: 819px;
+    top: 1522px;
+    left: 98px;
+    border-radius: 32px; /* скругление углов */
+}
+.aboutText{
+    position: absolute;
+    top: 1530px;
+    left: 700px;
+    font-size: 21px;
+    font-family: Arial;
+    color: #000;
+}
+.weImg{
+    position: absolute;
+    width: 1170px;
+    height: 645px;
+    top: 2416px;
+    left: 98px;
+    border-radius: 32px; /* скругление углов */
+}
+.weMiniImg{
+    position: absolute;
+    width: 482px;
+    height: 398px;
+    top: 2598px;
+    left: 735px;
+    border-radius: 32px; /* скругление углов */
+}
+.preparation{
+    position: absolute;
+    font-size: 55px;
+    font-family: Arial;
+    top: 3105px;
+    left: 270px;
+}
+.preparationText{
+    position: absolute;
+    top: 3214px;
+    left: 170px;
+    font-size: 21px;
+    font-family: Arial;
+    color: #000;
+}
+.preparationText2{
+    position: absolute;
+    top: 3728px;
+    left: 210px;
+    font-size: 20px;
+    font-family: Arial;
+    color: rgb(64 , 64, 64);
+}
+.preparationImg{
+    position: absolute;
+    width: 451px;
+    height: 731px;
+    top: 3188px;
+    left: 768px;
+    border-radius: 32px; /* скругление углов */
+}
+.question{
+    position: absolute;
+    top: 3815px;
+    left: 340px;
+}
+.question-button{
+    cursor: pointer;
+    padding: 20px 30px;
+    background-color: #387C87;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    font-family: Arial; 
+    border-radius: 32px; /* скругление углов */
+}
+img.full-width2 {
+    position: absolute;
+    width: 100%;
+    height: 285px;
+    top: 3950px;
+}
+img.full-width2 {
+    position: absolute;
+    width: 100%;
+    height: 205px;
+    top: 3970px;
+}
+.logoImg2{
+    position: absolute;
+    width: 8%;
+    height: auto;
+    top: 3990px;
+    left: 490px;
+}
+.telephone{
+    position: absolute;
+    top: 4010px;
+    left: 770px;
+    font-size: 25px;
+    font-family: Arial;
+    color: white;
+}
+.address{
+    position: absolute;
+    top: 4010px;
+    left: 1130px;
+    font-size: 25px;
+    font-family: Arial;
+    color: white;
+}

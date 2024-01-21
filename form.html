@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись на прием</title>
+    <link rel="stylesheet" href="formm.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <div class="maps"><script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+            </script>
+        </div> 
+        <div class="page">
+            <div class="map-container" id="map"></div>
+        </div>
+        <script type="text/javascript">
+            ymaps.ready(init);
+            function init(){
+                var myMap = new ymaps.Map("map", {
+                    center: [55.832004, 37.554834],
+                    zoom: 17
+                });
+            }
+        </script>
+</head>
+<body>
+    <div id="map" style="width: 600px; height: 400px"></div>
+    <div class="page">
+        <div class="background">
+            <script src="test.js"></script>
+
+            <div class="box_emp" id="employ">
+            <h6>Оставьте заявку!<br><span class = "h6_next">И наш менеджер с вами свяжется!</span></h6>
+            <div class="box_emp_sq1">
+            <input type="text" class="inputField" id="fullName" placeholder="ФИО">
+            </div>
+        <div class="box_emp_sq2">
+          <input type="text" class="inputField" id="phoneNumber" placeholder="+7 (999) 999-99-99">
+        </div>
+        <div class="box_emp_sq2">
+          <input type="text" class="inputField" id="email" placeholder="E-mail">
+        </div>
+        <div class="box_emp_sq2">
+          <input type="text" class="inputField" id="schedule" placeholder="Ваш вопрос">
+        </div>
+                  <input type="checkbox" id="agreementCheckbox">
+                  <label for="agreementCheckbox"></label>
+                  <p>Я даю своё <span class="box_emp_p_next">Согласие на обработку персональных данных</span> в <br> соответствии с <span class="box_emp_p_next">Политикой обработки персональных данных</span></p>
+                  <button class="workbutton" id="submitButton">Отправить</button>
+                  <!-- Новый элемент для отображения сообщения об успешной отправке -->
+                  <div id="successMessage" class="success-message"></div>
+              </div>
+              <div class="ad">
+                <img src="img\bottom1.png" class="full-width2">
+                <img src="images\logo1.png" class="logoImg2">
+                <div class="telephone">Контакты:<br>+79355370530<br>friendspet@gmail.com</div>
+                <div class="address">Адрес:<br>г. Москва<br>Лиственничная аллея, 2</div>
+            </div>
+            <div class="appointment">
+                <button class="appointment-button"><a class="link" href="index.html">На главную</a></button>
+            </div>
+            <div class="find">Как к нам попасть</div>
+            
+        </div>
+    </div>
+</body>
+</html>
